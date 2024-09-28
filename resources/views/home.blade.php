@@ -9,6 +9,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <link rel="stylesheet" href="{{asset('css/book-card.css')}}">
+    <script src="{{asset('js/main.js')}}"></script>
 </head>
 <body>
 
@@ -23,13 +24,7 @@
     </div>
 </div>
 
-<div class="card-container">
-    <div class="book-card">
-        <img class="book-cover" src="{{asset('cover.jpg')}}" alt="Book cover">
-        <p class="book-title">Valami cim ami a konyvnek van</p>
-        <p class="book-author">Book Author</p>
-    </div>
-</div>
+<div class="card-container"></div>
 
 </body>
 </html>

@@ -20,7 +20,7 @@
 }
 
 .book-title{
-    height: 54px;
+    max-height: 54px;
     overflow: hidden;
     font-weight: 600;
     font-size: 18px;
