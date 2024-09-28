@@ -12,7 +12,7 @@ return new class extends Migration
             $table->id();
             $table->string('title');
             $table->text('description')->nullable();
-            $table->date('publication_date');
+            $table->integer('publication_year');
             $table->string('cover_image')->nullable();
             $table->timestamps();
         });

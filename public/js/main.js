@@ -29,10 +29,10 @@ function loadBooks() {
 
 function bookCardBuilder(data, author) {
     return $(`
-    <div class="book-card">
-        <img class="book-cover" src="${data.cover ? data.cover : 'https://via.placeholder.com/150x200?text=Nincs+Borító'}" alt="Book cover">
+    <a class="book-card" href="/book/${data.id}">
+            <img class="book-cover" src="${data.cover_image ? "http://konyvtarkezelo.test/covers/"+data.cover_image : 'https://via.placeholder.com/150x200?text=Nincs+Borító'}" alt="Book cover">
         <p class="book-title">${data.title}</p>
         <p class="book-author">${author}</p>
-    </div>
+    </a>
   `);
 }

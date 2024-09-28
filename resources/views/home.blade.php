@@ -22,7 +22,13 @@
             </span>
         </div>
     </div>
+    <div class="d-flex justify-content-center">
+        <button class="btn btn-dark">
+            Új könyv
+        </button>
+    </div>
 </div>
+
 
 <div class="card-container"></div>
 

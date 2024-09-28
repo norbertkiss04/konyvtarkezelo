@@ -8,9 +8,19 @@
     margin-right: 24px;
 }
 
+
 .book-card{
     width: 160px;
     height: 340px;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.book-card:hover {
+    text-decoration: none;
+    color: inherit;
+    opacity: 0.9;
 }
 
 .book-cover{
