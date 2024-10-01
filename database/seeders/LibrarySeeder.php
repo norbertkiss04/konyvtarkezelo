@@ -62,7 +62,7 @@ class LibrarySeeder extends Seeder
             [
                 'title' => 'Az arany ember',
                 'description' => 'Egy izgalmas történet szerelemről és ármányról.',
-                'cover_image' => '1.jpg',
+                'cover_image' => 'covers/1.jpg',
                 'publication_year' => 1873,
                 'author_id' => $authorIds[0],
                 'genre_ids' => [$genreIds[0], $genreIds[2]],
@@ -72,7 +72,7 @@ class LibrarySeeder extends Seeder
             [
                 'title' => 'A Pál utcai fiúk',
                 'description' => 'A történet fiatal fiúk barátságáról és hősiességéről szól.',
-                'cover_image' => '2.jpg',
+                'cover_image' => 'covers/2.jpg',
                 'publication_year' => 1907,
                 'author_id' => $authorIds[1],
                 'genre_ids' => [$genreIds[1], $genreIds[4]],
@@ -82,7 +82,7 @@ class LibrarySeeder extends Seeder
             [
                 'title' => 'Egri csillagok',
                 'description' => 'Történelmi regény a 16. századi Magyarországról és az egri vár ostromáról.',
-                'cover_image' => '5.jpg',
+                'cover_image' => 'covers/5.jpg',
                 'publication_year' => 1899,
                 'author_id' => $authorIds[2],
                 'genre_ids' => [$genreIds[0], $genreIds[2]],
@@ -92,7 +92,7 @@ class LibrarySeeder extends Seeder
             [
                 'title' => 'Édes Anna',
                 'description' => 'Egy cselédlány és munkaadói közötti feszültségek lélektani elemzése.',
-                'cover_image' => '3.jpg',
+                'cover_image' => 'covers/3.jpg',
                 'publication_year' => 1926,
                 'author_id' => $authorIds[3],
                 'genre_ids' => [$genreIds[3], $genreIds[1]],
@@ -102,7 +102,7 @@ class LibrarySeeder extends Seeder
             [
                 'title' => 'Abigél',
                 'description' => 'Egy fiatal lány kalandjai egy szigorú bentlakásos iskolában a II. világháború idején.',
-                'cover_image' => '4.jpg',
+                'cover_image' => 'covers/4.jpg',
                 'publication_year' => 1970,
                 'author_id' => $authorIds[4],
                 'genre_ids' => [$genreIds[4], $genreIds[0]],

@@ -11,7 +11,7 @@
 <body>
 <div class="book-page">
     <div class="book-cover">
-        <img src="http://konyvtarkezelo.test/covers/{{ $book->cover_image }}" alt="Book Cover" class="cover-image">
+        <img src="http://konyvtarkezelo.test/storage/{{ $book->cover_image }}" alt="Book Cover" class="cover-image">
     </div>
 
     <div class="book-info">
